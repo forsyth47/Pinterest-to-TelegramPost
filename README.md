@@ -1,6 +1,7 @@
 # Pinterest-to-TelegramPost
 
 Userscript to open original Pinterest images and post them to Telegram from keyboard shortcuts.
+> ⚠️ The script requires configuration to post to telegram (read below)
 
 ## How it works
 - Hover an image on Pinterest and press `z` to open its original image URL in a new tab.
@@ -9,12 +10,18 @@ Userscript to open original Pinterest images and post them to Telegram from keyb
 
 ## Configuration
 Edit `script.user.js`:
-- `KEY_TO_OPEN`, `KEY_TO_POST`: keyboard shortcuts.
-- `ACTIVATE_NEW_TAB`: whether opened image tabs are focused.
+
+(Necessary)
 - `TG_BOT_TOKEN`: your Telegram bot token.
 - `TG_CHANNEL_ID`: target channel ID (usually with `-100` prefix).
-- `CAPTION_WITH_SOURCE_URL`: prefill caption with the pin URL.
-- `THEME`, `SCANLINES`: popup visual style.
+
+(Optional)
+- `KEY_TO_OPEN`, `KEY_TO_POST`: keyboard shortcuts.
+- `ACTIVATE_NEW_TAB` (true/false): whether opened image tabs are focused.
+- `CAPTION_WITH_SOURCE_URL` (true/false): prefill caption with the pin URL.
+- `THEME`: 1=green phosphor(matrix), 2=amber, 3=ice-blue
+- `SCANLINES` (true/false): popup visual style.
+
 
 ## Requirements
 - Must be logged in (original image URL doesn't seem to exist in the code when logged out).
