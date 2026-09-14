@@ -8,6 +8,14 @@ Userscript to open original Pinterest images and post them to Telegram from keyb
 - Hover an image and press `x` to open a popup, add an optional caption, and send it to your Telegram channel.
 - The script resolves the original image URL from Pinterest page data and sends it through the Telegram Bot API.
 
+## Installation 
+Copy the contents of script.user.js from [github.com/forsyth/pinterest-to-telegrampost](https://github.com/forsyth47/Pinterest-to-TelegramPost/blob/main/script.user.js)
+
+  - OR
+
+![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/595792-pinterest-post-to-telegram?style=flat-square&label=Install%20via%20Greasyfork.&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F595792-pinterest-post-to-telegram)
+
+
 ## Configuration
 Edit `script.user.js`:
 
