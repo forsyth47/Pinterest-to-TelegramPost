@@ -9,15 +9,18 @@ Userscript to open original Pinterest images and post them to Telegram from keyb
 - The script resolves the original image URL from Pinterest page data and sends it through the Telegram Bot API.
 
 ## Installation 
-Copy the contents of script.user.js from [github.com/forsyth/pinterest-to-telegrampost](https://github.com/forsyth47/Pinterest-to-TelegramPost/blob/main/script.user.js)
+![Static Badge](https://img.shields.io/badge/Install_script_via-Greasyfork-red?style=for-the-badge&logo=greasyfork&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F595792-pinterest-post-to-telegram)
 
   - OR
 
-![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/595792-pinterest-post-to-telegram?style=flat-square&label=Install%20via%20Greasyfork.&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F595792-pinterest-post-to-telegram)
+**Manual Installation**: Copy the contents of script.user.js from [github.com/forsyth/pinterest-to-telegrampost](https://github.com/forsyth47/Pinterest-to-TelegramPost/blob/main/script.user.js) and save it in your tampermonkey or violentmonkey
+
 
 
 ## Configuration
-Edit `script.user.js`:
+Once installed, to configure telegram, hover over any pin and press "x" and click "+" button to add your bot token and the channel id (prefix with -100).
+
+The bot must be added to your channel as admin and with the ability to send messages. (Optionally: Disable 'Sign messages' in channel settings to send anonymously)
 
 (Necessary)
 - `TG_BOT_TOKEN`: your Telegram bot token.
